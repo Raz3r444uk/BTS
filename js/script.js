@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+const prodSwiper = new Swiper('.prod__swiper', {
     direction: 'horizontal',
     loop: true,
     slidesPerColumnFill: "row",
@@ -13,3 +13,20 @@ const swiper = new Swiper('.swiper', {
       prevEl: '.swiper-button-prev',
     },  
   }); 
+
+
+  const teamSwiper = new Swiper('.team__swiper', {
+    direction: 'horizontal',
+    loop: true,
+    slidesPerColumnFill: "row",
+    slidesPerView: 1,
+    slidesPerColumn: 1,
+    autoplay: {
+      delay: 5000,
+    }  
+
+  }); 
+
+
+
+  
