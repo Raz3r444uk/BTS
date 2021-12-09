@@ -21,12 +21,8 @@ const prodSwiper = new Swiper('.prod__swiper', {
     slidesPerColumnFill: "row",
     slidesPerView: 1,
     slidesPerColumn: 1,
+    spaceBetween: 10,
     autoplay: {
       delay: 5000,
     }  
-
   }); 
-
-
-
-  
